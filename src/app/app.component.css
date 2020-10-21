@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.reddit-form {
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    background-color: #e6fdff;
+}

@@ -1,0 +1,22 @@
+<section>
+    <div class="count">
+        <div>
+            {{ article.votes }}
+        </div>
+        <div>
+            Points
+        </div>
+    </div>
+    <div>
+        <a href="{{ article.link }}">
+          {{ article.title }}
+        </a>
+        <p>({{ article.domain() }})</p>
+        <button class="btn" (click)="voteUp()">
+          upvote
+        </button>
+        <button class="btn" (click)="voteDown()">
+          downvote
+        </button>
+    </div>
+</section>
